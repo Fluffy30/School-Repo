@@ -17,7 +17,7 @@ def send():
 
 #delete
 def delete():
-    print("Button licked") 
+    print("Text") 
 
 #frame
 
@@ -32,7 +32,7 @@ text_label.grid(row=0, column=0 , padx=20, pady=10)
 
 #Image
 
-image = ImageTk.PhotoImage(Image.open("ai_image.png").resize((400, 400)))
+image = ImageTk.PhotoImage(Image.open("C:\\Users\\ADMIN\\OneDrive\\Desktop\\Brown\\siri.png").resize((400, 400)))
 image_label = Label(frame, image=image, bg="#2C3E50")
 image_label.grid(row=1, column=0, pady=20)
 
