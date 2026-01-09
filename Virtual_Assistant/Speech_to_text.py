@@ -1,5 +1,4 @@
 import speech_recognition as sr
-import aifc
 
 def speech_to_text():
     r = sr.Recognizer()
